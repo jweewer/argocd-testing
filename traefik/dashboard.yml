@@ -1,0 +1,10 @@
+apiVersion: helm.cattle.io/v1
+kind: HelmChart
+metadata:
+  name: traefik
+  namespace: kube-system
+spec:
+  set:
+    dashboard.enabled: "true"
+    dashboard.domain: "traefik.example.com"
+ 
