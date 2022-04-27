@@ -5,6 +5,7 @@ metadata:
   namespace: kube-system
 spec:
   set:
-    dashboard.enabled: "true"
-    dashboard.domain: "traefik.example.com"
+    dashboard:
+      enabled: "true"
+      domain: "traefik.example.com"
  
